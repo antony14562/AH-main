@@ -22,7 +22,7 @@ function w = ws(x,q)
 end
 %sample from interpolation
 for j = 1:10
-N = 10^5;
+N = 2*10^6;
 U = unifrnd(0,1,([N 1]));
 samp = Finv(U);
 
